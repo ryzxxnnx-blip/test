@@ -2,7 +2,7 @@
   "name": "siap-santap",
   "version": "1.0.0",
   "description": "Sistem Pemesanan Makanan Online",
-  "main": "index.js",
+  "main": "frontend/pages/index.html",
   "scripts": {
     "dev": "vercel dev",
     "build": "echo 'No build step required'",
