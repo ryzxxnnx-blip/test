@@ -5,12 +5,28 @@
   "main": "frontend/pages/index.html",
   "scripts": {
     "dev": "vercel dev",
-    "build": "echo 'No build step required'",
-    "start": "vercel dev"
+    "build": "vercel build || echo \"No build step required\"",
+    "start": "vercel dev",
+    "preview": "vercel --prod"
   },
-  "keywords": ["food-ordering", "restaurant", "vercel"],
-  "author": "",
+  "keywords": [
+    "food-ordering",
+    "restaurant",
+    "vercel"
+  ],
+  "author": "ryzxxnnx-blip",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryzxxnnx-blip/test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ryzxxnnx-blip/test/issues"
+  },
+  "homepage": "https://github.com/ryzxxnnx-blip/test#readme",
+  "engines": {
+    "node": ">=14"
+  },
   "dependencies": {},
   "devDependencies": {}
 }
