@@ -1,0 +1,16 @@
+{
+  "name": "siap-santap",
+  "version": "1.0.0",
+  "description": "Sistem Pemesanan Makanan Online",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "build": "echo 'No build step required'",
+    "start": "vercel dev"
+  },
+  "keywords": ["food-ordering", "restaurant", "vercel"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
